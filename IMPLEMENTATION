@@ -1,0 +1,26 @@
+Details on implementation
+
+
+
+
+/content/:uuid
+--------------
+
+slug = string
+text = markdown
+draft = bool
+categories = ['kr/photos', 'kr/music']
+title = string
+
+
+/collections/:name
+------------------
+
+slug = string
+
+/categories/:uuid
+----------------
+
+slug = string
+parent = category_uuid
+collection = collection_name
