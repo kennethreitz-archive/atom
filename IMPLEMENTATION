@@ -11,16 +11,38 @@ text = markdown
 draft = bool
 categories = ['kr/photos', 'kr/music']
 title = string
+tags= ['leica', 'review']
+collections = []
 
 
 /collections/:name
 ------------------
+
+(kr, photo, music)
 
 slug = string
 
 /categories/:uuid
 ----------------
 
+(expressions, exposures, experiments)
+
 slug = string
 parent = category_uuid
 collection = collection_name
+
+TODO: reconsider cagetories
+    what would a query for expressions of photo look like?
+    /kr?tagged=photo&tagged= --->
+    /content/?q=collections:kr AND tags:photo AND tags:photo
+
+
+URL
+----
+
+/content/:uuid
+/:collection?max=30
+/:collection?tagged=leica
+/:collection/:category
+/curate/
+
