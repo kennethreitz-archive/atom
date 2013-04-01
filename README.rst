@@ -46,3 +46,4 @@ Unclear
 The following items are currently unclear and need to be fully thought out:
 
 - Editing on the frontend. Perhaps admin.kennethreitz.org? I think I'd like it to just be built in.
+- Look into Twilio's Flask Rest thing.
