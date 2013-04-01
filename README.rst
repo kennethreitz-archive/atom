@@ -34,6 +34,12 @@ URL Strucuture
 /:collection.atom (atom.kennethreitz.org/photo.atom)
 /:collection/:category.atom (atom.kennethreitz.org/kr/expressions.atom)
 
+Admin goals
+-----------
+
+- Simple drafting
+- Simple publishing
+
 Unclear
 -------
 
