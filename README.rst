@@ -18,7 +18,9 @@ Workflow
 
 - A peice of content (e.g. essay, article) is written in Markdown.
 - The content is added to Atom via the API or the admin interface.
+- The content is automatically replicted on Blackbox, preserving it for history.
 - The content is associated with a Collection, which causes it to be "published" on a consuming service.
+- Profit!
 
 Basic Architecture
 ------------------
