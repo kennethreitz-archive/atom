@@ -10,9 +10,14 @@ def hello_world():
     return 'Hello World!'
 
 
+def get_collection_view():
+    pass
+
 @app.route('/content/<uuid>')
 def get_content(uuid):
-    pass
+    # Grab the content from elephant.
+    # Return it with appropriate content-type
+    # Flask-Negotations
 
 # TODO: .rss?
 @app.route('/<collection>.atom')
